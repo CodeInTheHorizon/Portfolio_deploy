@@ -56,8 +56,8 @@ export default function PortalScene({ light }) {
       camera={{ position: [0, 0, 7], fov: 45 }}
       dpr={[1, 1.5]}
     >
-      <color attach="background" args={[light ? "#e9efff" : "#07050e"]} />
-      <fog attach="fog" args={[light ? "#e9efff" : "#07050e", 7, 15]} />
+      <color attach="background" args={[light ? "#f6f0e9" : "#07050e"]} />
+      <fog attach="fog" args={[light ? "#f6f0e9" : "#07050e", 7, 15]} />
       <ambientLight intensity={light ? 1.2 : 0.35} />
       <pointLight
         color={light ? "#e8a739" : "#ff6a2b"}
